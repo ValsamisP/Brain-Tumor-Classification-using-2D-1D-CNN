@@ -41,7 +41,7 @@ Python >= 3.8
 CUDA-capable GPU (recommended)
 
 ## Clone the Repository
-git clone https://github.com/ValsamisP/brain-tumor-classification.git
+git clone [https://github.com/ValsamisP/brain-tumor-classification.git]
 cd brain-tumor-classification
 
 ## Install Dependencies
