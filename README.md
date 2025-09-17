@@ -18,20 +18,18 @@ This project implements a brain tumor classification system that achieves 97% te
 - Data Augmentation: Augmentation pipeline
 - Test Time Augmentation (TTA): Enhanced inference accuracy
 
-## Performance
+## Test Performance
 
-                  precision    recall  f1-score   support
+- Test Accuracy -> 96.9%
+- Macro F1-Score 97.0%
 
-    glioma_tumor      0.944     0.993     0.968       136
-meningioma_tumor      0.992     0.928     0.959       139
-        no_tumor      0.981     0.962     0.971        53
- pituitary_tumor      0.969     0.992     0.981       127
+- Class      Precision      Recall      F1-Score      Support
+- Glioma     0.944          0.993       0.968         136
+- Meningioma 0.992          0.928       0.959         139
+- No Tumor   0.981          0.962       0.971         53
+- Pituitary  0.969          0.992       0.981         127
 
-        accuracy                          0.969       455
-       macro avg      0.972     0.969     0.970       455
-    weighted avg      0.970     0.969     0.969       455
-
-
+  
 <img width="5792" height="2370" alt="image" src="https://github.com/user-attachments/assets/4af46340-6672-40a5-a62d-b9f0acb9b413" />
 
 
