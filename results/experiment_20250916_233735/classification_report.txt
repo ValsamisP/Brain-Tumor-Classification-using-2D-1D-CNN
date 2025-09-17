@@ -1,0 +1,38 @@
+Brain Tumor Classification - Detailed Results
+
+
+Experiment Timestamp: 20250916_233735
+Evaluation Type: Standard
+Test Accuracy: 96.92%
+Best Validation Accuracy: 96.70%
+
+Training Configuration:
+------------------------------
+data_dir: data_brain_tumor
+batch_size: 24
+learning_rate: 0.0001
+num_epochs: 100
+image_size: 224
+seed: 42
+use_tta: False
+model_save_path: models/enhanced_brain_tumor_model.pth
+
+Class Distribution in Test Set:
+------------------------------
+glioma_tumor: 136 samples
+meningioma_tumor: 139 samples
+no_tumor: 53 samples
+pituitary_tumor: 127 samples
+
+Classification Report:
+------------------------------
+                  precision    recall  f1-score   support
+
+    glioma_tumor      0.944     0.993     0.968       136
+meningioma_tumor      0.992     0.928     0.959       139
+        no_tumor      0.981     0.962     0.971        53
+ pituitary_tumor      0.969     0.992     0.981       127
+
+        accuracy                          0.969       455
+       macro avg      0.972     0.969     0.970       455
+    weighted avg      0.970     0.969     0.969       455
