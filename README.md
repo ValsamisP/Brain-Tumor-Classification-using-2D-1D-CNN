@@ -82,3 +82,6 @@ Developed by **Panagiotis Valsamis**, M.Sc. in Data Science candidate and aspiri
 ## Education Research Project
 This project is developed for educational and research purposes only. It is not intended for clinical use or medical diagnosis
 
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
